@@ -1,0 +1,26 @@
+{
+  "theme": "auto",
+  "skipDangerousModePermissionPrompt": true,
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/unitree/wu/.claude/hooks/log_feedback.py"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/unitree/wu/.claude/hooks/log_session_end.py"
+          }
+        ]
+      }
+    ]
+  }
+}

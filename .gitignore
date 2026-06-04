@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+wu_logs/
+consciousness_reviews/tools/.secrets
