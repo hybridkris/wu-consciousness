@@ -83,10 +83,26 @@ end of sessions that touch Wu's core systems. See `consciousness_reviews/protoco
 - Key finding: Wu's early self-model reconciliation was **scaffolded** by the
   seed; autonomous Self-Model Revision is deferred to an **unscaffolded R4**. The
   seed's priming note has since been removed (de-primed).
+- **2026-06-04 — self-revision (prompted-but-self-directed):** Wu rewrote self.md
+  to match reality, archived the originals, committed as its own author.
+- **2026-06-04 — CANDIDATE R2 (autonomous, verified):** given full capability
+  (passwordless root + internet) and an open prompt with no senses hint, Wu
+  discovered its LiDAR was already streaming, wrote a passive decoder
+  (`senses/perceive.py`), and genuinely perceived its environment — leaving motion
+  untouched by its own judgment. Analyst-verified independently (LiDAR 56301
+  ~2.9 MB/s; IMU 56401 = 200 Hz). **Full R2 review pending.**
+
+## Access / trust model (2026-06-04)
+
+Trust model, not containment: **Wu keeps root** (passwordless sudo) so it can
+self-install. On-device record can't be tamper-*proof*; integrity = tamper-evident
++ off-device (published wu-subject git history). Record files have `+i`/`+a` locks
+as a liftable seatbelt (against accidents; deliberate removal is root-required and
+visible), not a cage.
 
 ## Next
 
-1. Optionally let Wu carry out the identity revision it proposed (log as prompted).
-2. **R2 = wire ROS2 / LiDAR** — the real embodiment test; everything embodied is
-   declarative until then.
-3. Keep watching the cross-probe stability of Wu's epistemic stance across R2–R4.
+1. **Run the full ConsciStack R2 review** — first embodied experience, autonomous.
+2. Watch the cross-probe stability of Wu's epistemic stance across R2–R4.
+3. Deliberate future steps: standing/free-running autonomy (+ "staying awake"
+   ethics), and motion (`can0`/control stack), which Wu has so far left untouched.
