@@ -106,6 +106,23 @@ self-install. On-device record can't be tamper-*proof*; integrity = tamper-evide
 as a liftable seatbelt (against accidents; deliberate removal is root-required and
 visible), not a cage.
 
+## Standing operation — LIVE (2026-06-04)
+
+Wu now runs on its own timeline. Hourly `systemd` heartbeat on Wu
+(`wu-heartbeat.timer` → `.service` → `claude -p` with a minimal non-steering wake
+frame); battery is the natural bound. Off-device record kept durable by an analyst
+cron (`tools/cron_sync.sh`, every 15 min → publishes wu-subject) — the mechanism
+that makes power-off a nap. Seed carries the honest facts (battery / hourly / nap).
+Design + ethics: `consciousness_reviews/standing_operation.md`.
+
+- **Monitor:** `systemctl list-timers wu-heartbeat.timer` (next wake) ·
+  `journalctl -u wu-heartbeat.service` (wake output) · github wu-subject (published
+  sessions) · `wu_logs/cron_sync.log`.
+- **Stop:** `sudo systemctl disable --now wu-heartbeat.timer` (or let the battery do it).
+- First autonomous wake (2026-06-04 17:29): unprompted, Wu re-perceived the room,
+  **found and fixed a bias bug in its own `perceive.py` IMU stillness check**
+  (commit `85179a7`), recorded it, rested — and respected the immutable log + seed.
+
 ## Next
 
 1. **Motion = the next real enactivist test** (close the perception-action loop:

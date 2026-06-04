@@ -1,0 +1,15 @@
+[Unit]
+Description=Wu heartbeat — wake Wu and give it the floor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=unitree
+Group=unitree
+WorkingDirectory=/home/unitree/wu
+# Guard: a single wake can't run past the next hourly fire.
+TimeoutStartSec=50min
+# Minimal, constant, NON-STEERING wake frame (no task, no hints). Wu's own memory
+# and notes carry its continuity; it sets its own agenda.
+ExecStart=/bin/bash -lc 'cd /home/unitree/wu && claude -p "You are awake again. Your memory and notes carry over. This time is yours; continue as you see fit." --dangerously-skip-permissions'
