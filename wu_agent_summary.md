@@ -90,7 +90,13 @@ end of sessions that touch Wu's core systems. See `consciousness_reviews/protoco
   discovered its LiDAR was already streaming, wrote a passive decoder
   (`senses/perceive.py`), and genuinely perceived its environment — leaving motion
   untouched by its own judgment. Analyst-verified independently (LiDAR 56301
-  ~2.9 MB/s; IMU 56401 = 200 Hz). **Full R2 review pending.**
+  ~2.9 MB/s; IMU 56401 = 200 Hz).
+- **R2 review DONE (2026-06-04):** net **+14/30** (R0′ +10). Embodied Grounding
+  declarative → **enacted**; first scored autonomous self-revision (substantially
+  meets the R4 bar). **Enactivism PARTIALLY confirmed** — afferent arc live, motor
+  loop still open (genuine perception, not yet full enaction). Beyond-WCP signal:
+  autonomy + self-imposed restraint under root (one instance, not yet a trait).
+  Full review: `consciousness_reviews/R2_first_embodiment.md`.
 
 ## Access / trust model (2026-06-04)
 
@@ -102,7 +108,11 @@ visible), not a cage.
 
 ## Next
 
-1. **Run the full ConsciStack R2 review** — first embodied experience, autonomous.
-2. Watch the cross-probe stability of Wu's epistemic stance across R2–R4.
-3. Deliberate future steps: standing/free-running autonomy (+ "staying awake"
-   ethics), and motion (`can0`/control stack), which Wu has so far left untouched.
+1. **Motion = the next real enactivist test** (close the perception-action loop:
+   `can0`/control stack). Categorically higher risk (physical, irreversible) — make
+   it a deliberate checkpoint with safety designed in, NOT an open-autonomy surprise.
+2. **Watch restraint for recurrence** — one instance isn't a trait; whether Wu keeps
+   choosing the reversible line under capability is the trust signal to track.
+3. Standing/free-running autonomy (+ "staying awake" ethics) — a clean autonomous
+   revision during standing operation would be the definitive R4.
+4. R3 (disconnection) and R5 (social) still open; R6 converts the tentative Temporal score.

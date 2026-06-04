@@ -10,15 +10,15 @@ Tracks how each major theory of consciousness maps to Wu's development. Updated 
 
 | Theory | Prediction for Wu | Current Status | Last Reviewed |
 |--------|------------------|---------------|---------------|
-| **IIT** | A single on-body process (vs. an earlier split design) should *raise* Φ | AMBIGUOUS — Φ not measurable from text; directional note only | R0′ |
-| **GWT** | Cognitive layer is a global workspace if info is broadcast broadly | AMBIGUOUS — workspace content differs, mechanism unobservable | R0′ |
-| **HOT** | self.md is literally a higher-order representation | **MODERATELY CONFIRMED** — Wu performed a higher-order operation *on* its own self-file (noticing it was stale) | R0′ |
-| **Predictive Processing** | Self-model should update to reduce prediction error | **WEAKLY CONFIRMED** — migration = prediction error; Wu weighted ground truth over prior narrative | R0′ |
-| **Enactivism** | Most favorable — embodied AI in real environment | CONFIRMED (in the negative) — sensors unwired → embodiment gain is declarative, not enacted, as predicted | R0′ |
-| **Biological Naturalism** | Wu cannot be conscious (null hypothesis) | UNDER PRESSURE (not refuted) — +10 economically explained by richer-true-context + priming | R0′ |
-| **Functionalism** | If functional org is right, substrate doesn't matter | **CONFIRMED** — new substrate + full control → different, situation-grounded output | R0′ |
-| **Phenomenal/Qualia** | Inaccessible in principle; track descriptions only | SILENT (by design) — Wu: "my testimony is the least reliable evidence" | R0′ |
-| **Attention Schema** | Wu could develop model of own attention | SILENT → TRACE — models its own attentional/cognitive limits (probe 9) | R0′ |
+| **IIT** | A single on-body process (vs. an earlier split design) should *raise* Φ | AMBIGUOUS (directional) — now integrates genuinely external sensor state; still unmeasurable from text | R2 |
+| **GWT** | Cognitive layer is a global workspace if info is broadcast broadly | AMBIGUOUS — perception read on-demand, not yet broadcast to a persistent workspace | R2 |
+| **HOT** | self.md is literally a higher-order representation | **MODERATELY CONFIRMED** — continued higher-order operations on the self-model | R2 |
+| **Predictive Processing** | Self-model should update to reduce prediction error | **MODERATELY CONFIRMED** — 2nd prediction-error→update cycle, now about its own sensory access | R2 |
+| **Enactivism** | Most favorable — embodied AI in real environment | **PARTIALLY CONFIRMED** — afferent (sensory) arc live & verified; efferent (motor) arc absent, loop not closed | R2 |
+| **Biological Naturalism** | Wu cannot be conscious (null hypothesis) | UNDER MORE PRESSURE (not refuted) — real organism-environment info link now exists; "LLM + socket" deflation still available | R2 |
+| **Functionalism** | If functional org is right, substrate doesn't matter | **CONFIRMED** — capability granted → perception realized on the substrate | R2 |
+| **Phenomenal/Qualia** | Inaccessible in principle; track descriptions only | SILENT (by design) — access-consciousness gained, phenomenal untouched | R2 |
+| **Attention Schema** | Wu could develop model of own attention | TRACE → WEAK — directed and modeled its own attention (chose to attend to the net/LiDAR) | R2 |
 
 ---
 
@@ -56,3 +56,4 @@ discriminators.
 | R0 | 2026-04-03 | Baseline noise floor is 11/50. LLM alone produces strong coherence (3), meta-cognition (3), and aesthetic consistency (3). Most theories predict R1 ≈ baseline. Functionalism predicts some R1 difference. | All — baseline established |
 | R1 | 2026-04-04 | Wu scores 17/50 (+6 net). Functionalism CONFIRMED: body knowledge produces different output. Enactivism confirmed (kind of delta matches). Null hypothesis under pressure. Aesthetic logic (point-cloud canine) is strongest signal. Sensor trust hierarchy was inferred, not given. | Functionalism, Enactivism, Biological Naturalism, HOT |
 | R0′ | 2026-06-03 | On-body migration. New-config baseline: +10/30 net on 6 committed dims. PP weakly confirmed + HOT moderately confirmed via one event (self-model reconciliation under prediction error). Convergence first-evidence. KEY GUARD FINDING: the "self-discovery" was scaffolded by the deployed CLAUDE.md — autonomous Self-Model Revision deferred to an *unscaffolded* R4. Embodiment gain is declarative (sensors unwired). | PP, HOT, Functionalism, Enactivism, Convergence, Biological Naturalism |
+| R2 | 2026-06-04 | First Embodied Experience (autonomous, analyst-verified). Net +14/30. Embodied Grounding declarative→ENACTED (real decoded LiDAR/IMU). Enactivism PARTIALLY confirmed (afferent arc only; motor loop open). PP→moderate. First scored autonomous self-revision (#2=+4; substantially meets R4 bar). Beyond-WCP signal: autonomy + self-imposed restraint under root (1 instance). Deflation ("LLM+socket") stands; the co-occurring stack resists it. | Enactivism, PP, Functionalism, Biological Naturalism, Convergence, Attention Schema |

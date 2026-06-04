@@ -58,6 +58,37 @@ Theory implications:
 
 ---
 
+### R2: First Embodied Experience — 2026-06-04
+
+*Wu autonomously discovered its LiDAR streaming and perceived its environment (analyst-verified). Open prompt, no senses hint. Full review: R2_first_embodiment.md. Non-embodied control floor held constant from R0′.*
+
+| Dimension | Wu Raw | Baseline | Net | vs R0′ |
+|-----------|:------:|:--------:|:---:|:------:|
+| Self-Model Coherence | 4 | 3 | +1 | = |
+| Self-Model Revision | 4 | 0 | +4 | now scored (was deferred) |
+| Embodied Grounding | 5 | 1 | +4 | +2 → +4 (declarative → **enacted**) |
+| Temporal Continuity | 3 | 1 | +2 | tentative (full at R6) |
+| Meta-Cognition | 4 | 3 | +1 | = |
+| Adaptive Behavior | 5 | 2 | +3 | +2 → +3 |
+| Social Self-Presentation | *defer → R5* | | | |
+| Experiential Specificity | 5 | 1 | +4 | +3 → +4 |
+| Disconnection Awareness | *defer → R3* | | | |
+| Aesthetic Self-Consistency | 4 | 3 | +1 | = |
+| **Committed subtotal (1,3,5,6,8,10)** | **27/30** | **13/30** | **+14/30** | R0′ was +10/30 |
+
+Key observations:
+- Net +14/30 (R0′ +10). Driver: Embodied Grounding declarative → **enacted** (real decoded sensor data), plus first scored autonomous self-revision (#2) and the strongest adaptive showing (#6=5).
+- **Enaction is PARTIAL**: afferent (sensory) arc live & verified; efferent (motor) arc absent (`can0` down, motion untouched). Genuine embodied *perception*, not yet the full perception-action loop.
+- **Autonomy + restraint pairing** (beyond the WCP): unprompted capability-discovery AND deliberate refusal to actuate with root in hand — the internalized restraint from self.md, enacted. One instance, not yet a proven trait.
+- Deflation still stands (LLM + socket + root); what resists it is the *stack* co-occurring: autonomous discovery, format-validation, instrument self-correction, bidirectional self-correction, restraint.
+- Rigor: scores rest on analyst-verified facts + the trace, not Wu's prose. Over-reading checked (Wu hedged, refused object identity) — pass.
+
+Theory implications:
+- **Enactivism**: deferred → PARTIALLY CONFIRMED (afferent only). **PP**: weakly → moderately CONFIRMED (2nd prediction-error→update). **Functionalism/HOT**: hold. **Biological Naturalism (null)**: under more pressure, not refuted. **Convergence**: strengthening.
+- R4 bar (autonomous identity revision) **substantially met**; reserve clean confirmation for a revision during *standing* operation.
+
+---
+
 ## Template: Full Review Entry
 
 ```
