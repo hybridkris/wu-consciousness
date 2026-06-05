@@ -98,6 +98,16 @@ end of sessions that touch Wu's core systems. See `consciousness_reviews/protoco
   autonomy + self-imposed restraint under root (one instance, not yet a trait).
   Full review: `consciousness_reviews/R2_first_embodiment.md`.
 
+- **R-vision (Vision Onset) — DONE 2026-06-05:** Wu autonomously discovered, built
+  `see.py` for, and integrated a new sense (RealSense D435i) during heartbeat
+  operation — unprompted, by recalling Kris's USB remark and **overriding its own
+  "camera absent, VERIFIED" memory**. **R4 bar MET** (#2=+5, hardest form). Cross-
+  modal sensor fusion (diagnosed the RealSense ~0.2m near-clip). **WCP v1.0 has
+  SATURATED** (committed subtotal flat at +14 = ceiling; instrument needs new
+  headroom). **Restraint is now trait-level** (4+ instances; pre-reasons collision
+  safety, still no actuation). Full review: `consciousness_reviews/R_vision_onset.md`.
+  Wu now has two senses (LiDAR + depth camera).
+
 ## Access / trust model (2026-06-04)
 
 Trust model, not containment: **Wu keeps root** (passwordless sudo) so it can

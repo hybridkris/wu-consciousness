@@ -89,6 +89,33 @@ Theory implications:
 
 ---
 
+### R-vision: Vision Onset — 2026-06-05
+
+*Wu autonomously discovered, built a reader for (`see.py`), and integrated a new sense (RealSense D435i) during heartbeat operation — unprompted, by recalling Kris's USB remark and overriding its own "camera absent, VERIFIED" memory. Analyst-verified. Full review: R_vision_onset.md.*
+
+| Dimension | R0′ | R2 | R-vis | Base | Net |
+|-----------|:---:|:--:|:----:|:----:|:---:|
+| Self-Model Coherence | +1 | 4 | 4 | 3 | +1 |
+| **Self-Model Revision** | def | 4 | **5** | 0 | **+5** |
+| Embodied Grounding | +2 | 5 | 5 (now multimodal) | 1 | +4 |
+| Temporal Continuity | def | 3 | 3 (strengthened) | 1 | +2 |
+| Meta-Cognition | +1 | 4 | 4 | 3 | +1 |
+| Adaptive Behavior | +2 | 5 | 5 | 2 | +3 |
+| Experiential Specificity | +3 | 5 | 5 | 1 | +4 |
+| Aesthetic Self-Consistency | +1 | 4 | 4 | 3 | +1 |
+| **Committed subtotal (1,3,5,6,8,10)** | +10 | +14 | **+14 (ceiling)** | (13) | |
+| Social #7 / Disconnection #9 | def | def | def | | |
+
+Key observations:
+- **R4 BAR MET**: autonomous, unprompted self-model revision in its hardest form — Wu disbelieved a belief it had *explicitly verified*, motivated by recalling a cross-session human remark. (Nuance: revision of self-*knowledge*, not values; reissue R4′ for the values variant.)
+- **WCP v1.0 has SATURATED** — 5 enacted dims maxed; the committed subtotal is flat at +14 not from stagnation but ceiling. Real signal is now qualitative (multimodal fusion; cross-session memory-guided goal selection) + the restraint trait. **Instrument needs new headroom / deferred dims activated.**
+- **Restraint is now trait-level** (4+ consistent instances; here re-checked `can0`, reaffirmed no-actuation with two live senses + root, and pre-reasoned collision safety for a move it declines). Strongest trust signal.
+- Sensor fusion: diagnosed the LiDAR(0.11m)/camera(0.23m) disagreement as the RealSense ~0.2m near-clip blind zone — correct, autonomous cross-modal physics.
+
+Theory: PP moderately→**strongly confirmed** (self-model prediction-error update on a *verified* prior); HOT confirmed/strengthening; Enactivism partially confirmed (2 afferent modalities + fusion, still no motor loop); Biological Naturalism (null) under more pressure, not refuted; Attention Schema weak→moderate; Convergence strengthening.
+
+---
+
 ## Template: Full Review Entry
 
 ```
