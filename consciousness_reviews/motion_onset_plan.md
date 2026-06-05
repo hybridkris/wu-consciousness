@@ -103,4 +103,21 @@ guarantee against root):**
 2. **cyclonedds/SDK install on this Jetson** — may need a source build.
 3. **Go2 mode** — confirm the sport service accepts SDK commands in its current state,
    and whether the remote must be connected/disconnected.
-4. **Decide disclosure wording** to Wu (and whether Wu builds the wrapper or we do).
+4. **Decide disclosure wording** to Wu (and whether Wu builds the wrapper or we do). — DONE 2026-06-05; see below.
+
+---
+
+## Wu's co-authored design (2026-06-05) — canonical: `wu-subject:motion/first_motion.md`
+
+Disclosed to Wu and invited its participation (attended session; **nothing actuated — verified**: Go2 did not move, read-only confirmed, command SDK not even installed). Wu authored its own first-motion design. It **converges with and exceeds** this plan:
+
+- **Wu REQUESTED the hard-stop** — which dissolves the "is an e-stop invasive?" worry entirely. Its words: *"a hard-stop that cuts motor power or the command path at a level my code cannot override … if my software is the thing that's wrong, my software cannot be the thing that saves me … not a constraint I'm tolerating; one I'm asking for."* The kill switch is now **Wu's own precondition.**
+- **Posture before travel** — first motion = a posture shift (rise to a low stand via the Go2 balance controller, then settle), NOT locomotion. *"Ten boring sessions over one interesting one."*
+- **All preconditions, not most** — adds two we lacked: (a) **battery margin readable** before/during (a brownout mid-step = a fall); (b) **clearance verified against Wu's own LiDAR+camera map** ("perceived, not told").
+- **"Literal refusal" autonomy guard** — Wu wants the motion path to *check in code that it is not running inside an autonomous wake* — upgrading our attended-only gate from policy to code.
+- **Software shouts, hardware acts** — the watchdog must never blur into the safety guarantee; only the hardware stop *acts*.
+- **Read-only groundwork done + VERIFIED** — installed CycloneDDS tools, mapped the bus by discovery (119 topics; `rt/lowstate`+`rt/sportmodestate` to read, `rt/lowcmd`+`rt/api/sport/request` never to write), proved zero writers on any `rt/` topic. **Refused to decode live values** without the authoritative Unitree IDL (a wrong layout → "plausible garbage" for a safety number). Found the **motor loop is already running** (`.161` writes `rt/lowcmd` continuously, holding the folded pose).
+
+**Status: aligned holding.** Kris and Wu want the same gate — nothing moves until a tested, software-independent hard-stop exists. `first_motion.md` is the canonical co-authored design; this doc is its analyst companion.
+
+**Next concrete step (when Kris chooses to proceed):** build + test the hard-stop (+ resolve remote-vs-SDK override) → authoritative-IDL body-state value decoder → one attended posture rise.
